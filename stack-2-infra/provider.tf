@@ -16,7 +16,7 @@ terraform {
     }
   }
   backend "s3" {
-    bucket = "akash-terraform-app-infra-state-bucket-1"
+    bucket = "akash-terraform-app-infra-state-bucket"
     key = "envs/dev/infra/terraform.tfstate"
     region = "ap-south-1"
     encrypt = true

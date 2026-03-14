@@ -20,3 +20,14 @@ variable "private_subnet_count" {
     description = "Number  of Private Subnets"
   
 }
+
+variable "rds_db_username" {
+  type = string
+  description = "rds user name"
+}
+
+variable "rds_db_parameter_name" {
+    type = string
+    description = "SSM parameter name for RDS DB password"  
+}
+
